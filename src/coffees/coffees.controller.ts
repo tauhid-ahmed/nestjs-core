@@ -10,10 +10,10 @@ import {
   Post,
   Query,
 } from '@nestjs/common';
-import { CoffeeService } from './coffees.service';
+import { CoffeesService } from './coffees.service';
 
 @Controller('coffees')
-export class CoffeeController {
+export class CoffeesController {
   // constructor() {}
 
   @Get()
